@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFFFFFFF</color>
+    <color name="purple_500">#000080</color>
+    <color name="purple_700">#000080</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="text">#4B4B4B</color>
+    <color name="biru_donker">#000080</color>
+    <color name="BtnLoginRegister">#F02B2B</color>
+    <color name="userNotification">#F1E048</color>
+    <color name="texNavigasi">#FF9800</color>
+    <color name="grey">#FFFFFF</color>
+    <color name="toolbar">#E25121</color>
+    <color name="toolbarMenu">#FF9A00</color>
+    <color name="left">#F3F8EFA1</color>
+    <color name="right">#F5FF5DD1</color>
+    <color name="toolbartransparan">#00FFFFFF</color>
+    <color name="buttonNavigation">#66EE6236</color>
+    <color name="hijou">#01C408</color>
+    <color name="navigation">#FFC100</color>
+    <color name="garis">#707070</color>
+    <color name="backround">#FF9A00</color>
+
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="menu_background">#119c4b</color>
+    <color name="background">#ececec</color>
+
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_new_pesan"
+        android:title="Sort"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_chat_24"/>
+
+
+
+    <item android:id="@+id/action_Contact"
+        android:title="Sort"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_contact_24"/>
+
+    <item
+        android:id="@+id/action_Search"
+        android:title="Settings"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_search_24"/>
+
+
+
+
+</menu>

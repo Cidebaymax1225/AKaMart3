@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/item_view_dialog"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        >
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/img_on"
+            android:layout_width="1dp"
+            android:layout_height="1dp"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/img_off"
+            android:layout_width="1dp"
+            android:layout_height="1dp"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+
+            <ImageView
+                android:id="@+id/user_profile_image_search"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/backround_transparan_menu"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:background="@drawable/bar_layout_cerita"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:id="@+id/user_name_search"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="@string/userNameItemView"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:maxLines="3"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:fontFamily="serif-monospace"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/user_full_name_search"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/profileItemView"
+            android:layout_below="@id/user_name_search"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backround_transparan_menu"
+        />
+
+</androidx.cardview.widget.CardView>
+
